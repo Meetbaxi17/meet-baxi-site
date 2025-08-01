@@ -1,0 +1,29 @@
+---
+const {link,caption, height} = Astro.props;
+---
+<div class="container">
+
+<img height={height} src={link}/>
+	<p class="Caption">{caption}</p>
+   </div>
+
+  <style>
+    .container {
+      padding: 20px;
+      background-color: #fff3d8ff;
+      font-family: cursive;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      border: 2px solid #000000;
+    }
+    img {
+      object-fit: cover;
+    }
+    p {
+      font-size: 1rem;
+    }
+}
+  </style>
+
+
