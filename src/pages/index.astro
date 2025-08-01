@@ -4,7 +4,9 @@ import MainLayout from "../layouts/MainLayout.astro";
 import Button from "../components/Button.astro";
 import Card from "../components/Card.astro";
 
+
 import ImageCard from "../components/ImageCard.astro";
+import BigCard from "../components/BigCard.astro";
 
 ---
 
@@ -12,8 +14,10 @@ import ImageCard from "../components/ImageCard.astro";
 	<h1>Meet Baxi</h1>
 	<p>A simple website built with Astro</p>
 
+
 	<!-- Example of using a component with props -->
 	<Button text="Explore Now" />
+	<BigCard heading="Welcome to My Website" paragraph="This is a beginner-friendly website starter. It's built with Astro and designed to help you learn HTML, CSS, and basic components." />
 
 	<h2>Features</h2>
 	<ImageCard link="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/500px-Image_created_with_a_mobile_phone.png" caption="Google Donloaded Image"/>

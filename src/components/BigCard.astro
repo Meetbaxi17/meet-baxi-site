@@ -1,0 +1,16 @@
+---
+const {heading, paragraph} = Astro.props;
+---
+<div class="big-card">
+  <h2>{heading}</h2>
+  <p>{paragraph}</p>
+</div>
+
+<style>
+  .big-card{
+  background-color: #f0f0f0;
+    border: 1px solid;
+    padding: 20px;
+    margin: 20px 0;
+  }
+</style>
